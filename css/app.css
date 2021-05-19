@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    color: gray;
+}
+
+.cell img {
+    width: 25px;
+    height: auto
+    
+}
+
+.game-over {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    background-color: crimson;
+    display: none;
+}
+
+footer {
+    margin-top: 300px;
+}
+
+.board-container {
+    width: 190px;
+    height:190px;
+    /* background-color: whitesmoke; */
+    color: gray;
+    margin-left: 32%;
+    margin-top: 100px;
+   
+}
+.board-container tr td{
+    border:1px solid white;
+    background: #999999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.board-container tr td.clicked {
+    background: #333333;
+}
+
+
+.timer {
+    width: 40px;
+    height: 20px;
+    background-color: hotpink;
+    color: black;
+    margin: auto;
+}
